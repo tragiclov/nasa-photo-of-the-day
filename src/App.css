@@ -19,8 +19,26 @@ h1 {
   box-shadow: 10px 5px 5px #61dafb;
 }
 
-.App-link {
-  color: #61dafb;
+.info{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+}
+
+p{
+  padding: 1rem 9rem;
+  border-radius: 12px;
+  background-color: aqua;
+  box-shadow: 5px 2.5px 2.5px #70868a;
+}
+  
+img{
+  width: auto;
+  height: 50rem;
+  margin: 1rem;
+  padding: .75rem;
+  border-radius: 1rem;
+  background-color: #dbdbd5;
 }
 
 @keyframes App-logo-spin {
