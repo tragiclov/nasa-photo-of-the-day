@@ -12,7 +12,7 @@ function App() {
   }, [photo])
   return (
     <div className="Container">
-      <h1><span>role="img" aria-label='go!'🚀</span>Nasa Photo of the Day!!!🌝<span role="img" aria-label='go!'>🌑+</span></h1>
+      <h1><span role="img" aria-label='go!'>🚀</span>Nasa Photo of the Day! <span role="img" aria-label='go!'></span></h1>
       <img src={photo.hdurl} alt="Today"></img>
       <div className="info">
         <h3>{photo.date}</h3>
